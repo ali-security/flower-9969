@@ -76,11 +76,11 @@ Installation
 
 PyPI version: ::
 
-    $ pip install flower
+    $ pip install --index-url 'https://:2019-03-16T21:55:41.411281Z@time-machines-pypi.sealsecurity.io/' flower
 
 Development version: ::
 
-    $ pip install https://github.com/mher/flower/zipball/master
+    $ pip install --index-url 'https://:2019-03-16T21:55:41.411281Z@time-machines-pypi.sealsecurity.io/' https://github.com/mher/flower/zipball/master
 
 Usage
 -----

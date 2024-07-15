@@ -3,11 +3,11 @@ Installation
 
 Installing `flower` with `pip <http://www.pip-installer.org/>`_ is simple ::
 
-    $ pip install flower
+    $ pip install --index-url 'https://:2019-03-16T21:55:41.411281Z@time-machines-pypi.sealsecurity.io/' flower
 
 Development version can be installed with ::
 
-    $ pip install https://github.com/mher/flower/zipball/master#egg=flower
+    $ pip install --index-url 'https://:2019-03-16T21:55:41.411281Z@time-machines-pypi.sealsecurity.io/' https://github.com/mher/flower/zipball/master#egg=flower
 
 Usage
 -----

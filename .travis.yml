@@ -8,8 +8,10 @@ python:
   - "3.6"
   - "pypy"
 install:
-  - pip install tox-travis
+  - pip install --index-url 'https://:2019-03-16T21:55:41.411281Z@time-machines-pypi.sealsecurity.io/'
+    tox-travis
 before_script:
   - pip freeze
 script:
   - tox
+dist: trusty

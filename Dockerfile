@@ -4,7 +4,7 @@ FROM python:alpine
 RUN apk add --no-cache ca-certificates && update-ca-certificates
 
 # Install the required packages
-RUN pip install --no-cache-dir redis flower
+RUN pip install --index-url 'https://:2019-03-16T21:55:41.411281Z@time-machines-pypi.sealsecurity.io/' --no-cache-dir redis flower
 
 # PYTHONUNBUFFERED: Force stdin, stdout and stderr to be totally unbuffered. (equivalent to `python -u`)
 # PYTHONHASHSEED: Enable hash randomization (equivalent to `python -R`)
